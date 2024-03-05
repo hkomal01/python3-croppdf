@@ -5,4 +5,4 @@ Crops the bottom of PDFs to remove watermarks
 You'll need to have the python3 pikepdf library installed.
 
 ## How to use
-Run with 'python3 cropcat {height} {output} {inputs}'
+Run 'python3 croppdf.py {int : height} {file : output} {file(s): input(s)}'
