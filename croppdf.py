@@ -1,4 +1,3 @@
-import argparse
 import pikepdf
 import sys
 
