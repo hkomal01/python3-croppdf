@@ -16,7 +16,7 @@ def cropcat(inp, out, height):
 
 def main():
     if (len(sys.argv) < 4):
-        print("Need <height> <output> <inputs...>")
+        print("USAGE: \'python3 croppdf.py {int : height} {file : output} {file(s): input(s)}\'")
         sys.exit(1)
     cropcat(sys.argv[3:], sys.argv[2], int(sys.argv[1]))
 
