@@ -3,7 +3,10 @@ import pikepdf
 import sys
 
 def cropcat(inp, out, height):
+    # Create output PDF page
     final = pikepdf.Pdf.new()
+    # Loop through each PDF file and concatenate 
+    # cropped pages onto output PDF file
     for pdf in inp:
         curr = pikepdf.open(pdf)
         for page in curr.pages:
